@@ -75,7 +75,8 @@ img {
 #header {
   &-home {
     // Header Home
-    background: url("/dist/img/photo-1490730141103-6cac27aaab94.jpeg") no-repeat center right / cover;
+    background: url("/dist/img/photo-1490730141103-6cac27aaab94.jpeg") no-repeat
+      center right / cover;
     height: 100vh;
     color: #fff;
 
@@ -93,7 +94,8 @@ img {
 
   // Header Inner
   &-inner {
-    background: url("/dist/img/showcase.jpg") no-repeat 20% 30% / cover;
+    background: url("/dist/img/photo-1490730141103-6cac27aaab94.jpeg") no-repeat
+      20% 30% / cover;
     height: 5.5rem;
     border-bottom: 3px solid $main-color;
   }
@@ -348,7 +350,6 @@ img {
   }
 }
 
-
 // Footer
 #main-footer {
   background: $dark-color;
@@ -378,4 +379,4 @@ img {
   }
 }
 // Import Media Queires
-@import 'media';
+@import "media";
