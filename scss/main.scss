@@ -75,7 +75,7 @@ img {
 #header {
   &-home {
     // Header Home
-    background: #333;
+    background: url("/dist/img/showcase.jpg") no-repeat center right / cover;
     height: 100vh;
     color: #fff;
 
@@ -93,7 +93,7 @@ img {
 
   // Header Inner
   &-inner {
-    background: #333;
+    background: url("/dist/img/showcase.jpg") no-repeat 20% 30% / cover;
     height: 5.5rem;
     border-bottom: 3px solid $main-color;
   }
